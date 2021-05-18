@@ -15,6 +15,7 @@
           rec {
             packages = {
               pango-typefaces = pkgs.callPackage ./pango-typefaces {};
+              pdftools-server = pkgs.callPackage ./pdftools-server {};
             };
             defaultPackage = packages.pango-typefaces;
           }
