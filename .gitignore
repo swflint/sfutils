@@ -3,6 +3,7 @@
 !.gitignore
 !.gitmodules
 !.gitkeep
+/result
 
 # Emacs Stuff
 *~
