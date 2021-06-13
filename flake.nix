@@ -9,15 +9,16 @@
   outputs = { self, nixpkgs, utils }:
     utils.lib.eachDefaultSystem (
       system:
-        let
-          pkgs = import nixpkgs { inherit system; };
-        in
-          rec {
-            packages = {
-              pango-typefaces = pkgs.callPackage ./pango-typefaces {};
-              pdftools-server = pkgs.callPackage ./pdftools-server {};
-            };
-            defaultPackage = packages.pango-typefaces;
-          }
+      let
+        pkgs = import nixpkgs { inherit system; };
+      in
+      rec {
+        packages = {
+          pango-typefaces = pkgs.callPackage ./pango-typefaces { };
+          pdftools-server = pkgs.callPackage ./pdftools-server { };
+          usbscale = pkgs.callPackage ./usbscale { };
+        };
+        defaultPackage = packages.pango-typefaces;
+      }
     );
 }
