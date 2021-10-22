@@ -17,6 +17,7 @@
           pango-typefaces = pkgs.callPackage ./pango-typefaces { };
           pdftools-server = pkgs.callPackage ./pdftools-server { };
           usbscale = pkgs.callPackage ./usbscale { };
+          sctools = pkgs.callPackage ./sctools { };
         };
         defaultPackage = packages.pango-typefaces;
       }
