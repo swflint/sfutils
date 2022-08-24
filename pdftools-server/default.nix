@@ -8,8 +8,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "vedang";
     repo = "pdf-tools";
-    rev = "d262cf9e19d57c6567e06e51d109150c20753839";
-    sha256 = "0bls4kh7qv5wkjmxizj7rwn2kby0awg1fzkra3fkmg9xbvqzm7qh";
+    rev = "1a0a30c54dc3effdba4781a2983115d4b6993260";
+    sha256 = "1gy7d25iplix02h9kqxxvfrxfwr2gm11xdmmx9ckbj3q51b5gi1r";
     fetchSubmodules = false;
   };
 
