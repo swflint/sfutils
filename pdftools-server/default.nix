@@ -2,7 +2,7 @@
 
 stdenv.mkDerivation rec {
 
-  version = "master-2021-05-18";
+  version = "master-2022-08-124";
   name = "pdftools-server-${version}";
 
   src = fetchFromGitHub {
