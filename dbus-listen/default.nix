@@ -1,3 +1,3 @@
-with import <nixpkgs> {};
+{ haskellPackages }:
 
-haskellPackages.callCabal2nix "dbus-listen" ./. {}
+haskellPackages.callCabal2nix "dbus-listen" ./. { }

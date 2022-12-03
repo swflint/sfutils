@@ -18,6 +18,7 @@
           pdftools-server = pkgs.callPackage ./pdftools-server { };
           usbscale = pkgs.callPackage ./usbscale { };
           sctools = pkgs.callPackage ./sctools { };
+          dbus-listen = pkgs.callPackage ./dbus-listen { };
         };
         defaultPackage = packages.pango-typefaces;
       }
