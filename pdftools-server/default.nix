@@ -2,14 +2,14 @@
 
 stdenv.mkDerivation rec {
 
-  version = "master-2022-08-124";
+  version = "master-2023-02-29";
   name = "pdftools-server-${version}";
 
   src = fetchFromGitHub {
     owner = "vedang";
     repo = "pdf-tools";
-    rev = "1a0a30c54dc3effdba4781a2983115d4b6993260";
-    sha256 = "1gy7d25iplix02h9kqxxvfrxfwr2gm11xdmmx9ckbj3q51b5gi1r";
+    rev = "bc2ba117e8c3196ff9adf0da4fa1e63a8da3d7c8";
+    sha256 = "sha256-ed/QqTjsx2xRIAhNv63tMYHuqOplPFODmATu/MsX4+w=";
     fetchSubmodules = false;
   };
 
