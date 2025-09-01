@@ -1,4 +1,4 @@
-{ stdenv, fetchFromGitHub, libusb }:
+{ stdenv, fetchFromGitHub, libusb1 }:
 
 stdenv.mkDerivation rec {
   version = "master-2021-06-13";
@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
     fetchSubmodules = false;
   };
 
-  buildInputs = [ libusb ];
+  buildInputs = [ libusb1 ];
 
   installPhase = ''
     mkdir -p $out/bin

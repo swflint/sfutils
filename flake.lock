@@ -1,30 +1,12 @@
 {
   "nodes": {
-    "flake-utils": {
-      "inputs": {
-        "systems": "systems"
-      },
-      "locked": {
-        "lastModified": 1701680307,
-        "narHash": "sha256-kAuep2h5ajznlPMD9rnQyffWG8EM/C73lejGofXvdM8=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "4022d587cbbfd70fe950c1e2083a02621806a725",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1702868298,
-        "narHash": "sha256-ea5qulrP3imcaITKWDY6yTySYUYd6UxjgbZADh5wTJY=",
+        "lastModified": 1756755028,
+        "narHash": "sha256-r+KvEpjfBmJyjkfehAFPyYngLnfIgoTAEqigoxNOs2Q=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ca16221251951e9c6261a1a2bb4f9389038d3632",
+        "rev": "ba6385238fb6de4fa7241609e3501dc7373b211a",
         "type": "github"
       },
       "original": {
@@ -35,16 +17,16 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1702539185,
-        "narHash": "sha256-KnIRG5NMdLIpEkZTnN5zovNYc0hhXjAgv6pfd5Z4c7U=",
+        "lastModified": 1756542300,
+        "narHash": "sha256-tlOn88coG5fzdyqz6R93SQL5Gpq+m/DsWpekNFhqPQk=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "aa9d4729cbc99dabacb50e3994dcefb3ea0f7447",
+        "rev": "d7600c775f877cd87b4f5a831c28aa94137377aa",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixpkgs-unstable",
+        "ref": "nixos-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
@@ -52,11 +34,11 @@
     "plover": {
       "flake": false,
       "locked": {
-        "lastModified": 1697700476,
-        "narHash": "sha256-4MXETUhWxaO4lUX2fJ7CmfFvqC1P61Gq7523kD7oD6o=",
+        "lastModified": 1756667076,
+        "narHash": "sha256-odfZw0grnFOmnl1jGL5yZqS1qUSh2ZizujmVKZJvRs8=",
         "owner": "openstenoproject",
         "repo": "plover",
-        "rev": "53c416fd893d62ab9ede5898129da3be856e910d",
+        "rev": "3feff79053382ca9d9be8cb05983cb45daecac89",
         "type": "github"
       },
       "original": {
@@ -67,22 +49,21 @@
     },
     "plover-flake": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs_2",
         "plover": "plover",
         "plover-machine-hid": "plover-machine-hid",
         "plover-stroke": "plover-stroke",
         "plover2cat": "plover2cat",
-        "plover_auto_reconnect_machine": "plover_auto_reconnect_machine",
         "plover_plugins_registry": "plover_plugins_registry",
+        "pyobjc": "pyobjc",
         "rtf-tokenize": "rtf-tokenize"
       },
       "locked": {
-        "lastModified": 1702697624,
-        "narHash": "sha256-Q+dNv2D7CA+Po4UroQiTWWjyUkRy4CQxfkVvk0uxLkY=",
+        "lastModified": 1756699350,
+        "narHash": "sha256-NfvEFNW39Jtd3jNO3T49FhMK50Hvm0wHF1xCbHgRJPs=",
         "owner": "dnaq",
         "repo": "plover-flake",
-        "rev": "6be82522413c0228cd8dad2edf887667cacb0bb3",
+        "rev": "e7331f3bb96bbc56a03eb6f856ce3f6521139db3",
         "type": "github"
       },
       "original": {
@@ -94,11 +75,11 @@
     "plover-machine-hid": {
       "flake": false,
       "locked": {
-        "lastModified": 1693153992,
-        "narHash": "sha256-2MQPLERSjX0i0GJaKMyb39beMhQytraWIDHiqX5fSOg=",
+        "lastModified": 1755202977,
+        "narHash": "sha256-3ldTcr+27GPbR1jAABCHVgYoN1F1egK2w6jVC0cpJIE=",
         "owner": "dnaq",
         "repo": "plover-machine-hid",
-        "rev": "4924dfc1ddf542182cb5de6075a659f75f88b124",
+        "rev": "82c9e2d25bffe5ec89fc9bf6897aef2a08d69b70",
         "type": "github"
       },
       "original": {
@@ -126,48 +107,49 @@
     "plover2cat": {
       "flake": false,
       "locked": {
-        "lastModified": 1698341994,
-        "narHash": "sha256-IpfVZJC8jVdCv9rE82zU8P2sgbijc2fdavvrHFW4jqc=",
+        "lastModified": 1740191225,
+        "narHash": "sha256-rAHNYkmEHLvnsKBkirCizGYJNgDzu1XEnLh54fmTW/U=",
         "owner": "greenwyrt",
         "repo": "plover2CAT",
-        "rev": "ab22fabfe5737a987a7373ded6f54b78c42a76d2",
+        "rev": "c5187632e5e7a633c141704b1a59d9a5703ecd73",
         "type": "github"
       },
       "original": {
         "owner": "greenwyrt",
         "repo": "plover2CAT",
-        "type": "github"
-      }
-    },
-    "plover_auto_reconnect_machine": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1696968927,
-        "narHash": "sha256-x7s0JnZE8VYXH76KaR50qoQg29GnQ405l1/72HA6AMk=",
-        "owner": "tschulte",
-        "repo": "plover_auto_reconnect_machine",
-        "rev": "aaacf26b245c82d9818ea8e4cfa62167a56d93a9",
-        "type": "github"
-      },
-      "original": {
-        "owner": "tschulte",
-        "repo": "plover_auto_reconnect_machine",
         "type": "github"
       }
     },
     "plover_plugins_registry": {
       "flake": false,
       "locked": {
-        "lastModified": 1697077020,
-        "narHash": "sha256-YlrZ/CAEQlXOc35f/DQz1tgzmKyL3q2AEcPeWlIB/IA=",
+        "lastModified": 1756352162,
+        "narHash": "sha256-m8znoAJPbir4FvSqJ7Kl3pARd+7lJxJ2jPw0ZXKtb6M=",
         "owner": "openstenoproject",
         "repo": "plover_plugins_registry",
-        "rev": "55a46f644180a841b55bbec86f507562ecc34816",
+        "rev": "cdcc136e9d840d71a14c1ada8ea5a4959f7ddb26",
         "type": "github"
       },
       "original": {
         "owner": "openstenoproject",
         "repo": "plover_plugins_registry",
+        "type": "github"
+      }
+    },
+    "pyobjc": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736669867,
+        "narHash": "sha256-Kj1CH1+RYTFszao9G7P3fnsgBjTcvsq4ZpxdjHzQ520=",
+        "owner": "ronaldoussoren",
+        "repo": "pyobjc",
+        "rev": "e29d3a0c80b5bb852e4311ce10827efab9844c6c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ronaldoussoren",
+        "ref": "v11.0",
+        "repo": "pyobjc",
         "type": "github"
       }
     },
@@ -181,11 +163,11 @@
     "rtf-tokenize": {
       "flake": false,
       "locked": {
-        "lastModified": 1633915168,
-        "narHash": "sha256-zwD2sRYTY1Kmm/Ag2hps9VRdUyQoi4zKtDPR+F52t9A=",
+        "lastModified": 1751102035,
+        "narHash": "sha256-bM/DFl1mpHgeBItdyA5Tt+Eo9u82Gz+6qwft2h0bM94=",
         "owner": "openstenoproject",
         "repo": "rtf_tokenize",
-        "rev": "509b009b97077d5abcebe53d46ca6b67c3438a2c",
+        "rev": "5c4ad772f4b45ceb35b60584e22a171e90526916",
         "type": "github"
       },
       "original": {
@@ -209,31 +191,16 @@
         "type": "github"
       }
     },
-    "systems_2": {
-      "locked": {
-        "lastModified": 1681028828,
-        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
-        "owner": "nix-systems",
-        "repo": "default",
-        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nix-systems",
-        "repo": "default",
-        "type": "github"
-      }
-    },
     "utils": {
       "inputs": {
-        "systems": "systems_2"
+        "systems": "systems"
       },
       "locked": {
-        "lastModified": 1701680307,
-        "narHash": "sha256-kAuep2h5ajznlPMD9rnQyffWG8EM/C73lejGofXvdM8=",
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
         "owner": "numtide",
         "repo": "flake-utils",
-        "rev": "4022d587cbbfd70fe950c1e2083a02621806a725",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
         "type": "github"
       },
       "original": {

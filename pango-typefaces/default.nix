@@ -1,17 +1,17 @@
-{ stdenv, pkgconfig, gnome2, cairo }:
+{ stdenv, pkg-config, pango, cairo }:
 
 stdenv.mkDerivation rec {
 
-  name="pango-typefaces";
+  name = "pango-typefaces";
 
   unpackPhase = ":";
 
   buildInputs = [
-    pkgconfig
-    gnome2.pango
+    pkg-config
+    pango
     cairo
   ];
-  
+
   installPhase = ''
     mkdir -p $out/bin
     gcc -o $out/bin/pango-typefaces \

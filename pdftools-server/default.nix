@@ -1,4 +1,4 @@
-{ stdenv, fetchFromGitHub, gcc, gnumake, automake, autoconf, pkgconfig, libpng, zlib, poppler }:
+{ stdenv, fetchFromGitHub, gcc, gnumake, automake, autoconf, pkg-config, libpng, zlib, poppler }:
 
 stdenv.mkDerivation rec {
 
@@ -8,8 +8,8 @@ stdenv.mkDerivation rec {
   src = fetchFromGitHub {
     owner = "vedang";
     repo = "pdf-tools";
-    rev = "bc2ba117e8c3196ff9adf0da4fa1e63a8da3d7c8";
-    sha256 = "sha256-ed/QqTjsx2xRIAhNv63tMYHuqOplPFODmATu/MsX4+w=";
+    rev = "30b50544e55b8dbf683c2d932d5c33ac73323a16";
+    sha256 = "sha256-/UH3KcuZf9p7MA0ZzhqAgTv6LjKnBXHfJUOdIxV6KbI=";
     fetchSubmodules = false;
   };
 
@@ -18,7 +18,7 @@ stdenv.mkDerivation rec {
     gnumake
     automake
     autoconf
-    pkgconfig
+    pkg-config
     libpng
     zlib
     poppler
