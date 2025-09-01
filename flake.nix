@@ -21,7 +21,6 @@
           usbscale = pkgs.callPackage ./usbscale { };
           sctools = pkgs.callPackage ./sctools { };
           dbus-listen = pkgs.callPackage ./dbus-listen { };
-          external-editor-revived = pkgs.callPackage ./external-editor-revived { };
           my_plover = plover-pkgs.plover.with-plugins (ps: with ps; [
             plover_auto_reconnect_machine
             plover_console_ui
